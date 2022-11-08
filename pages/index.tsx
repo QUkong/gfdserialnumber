@@ -47,6 +47,7 @@ export default function Home() {
     <>
       <Head>
         <title>GFD Serial Number</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <Navbar />
       <div id="main-page-container">
