@@ -9,6 +9,7 @@ const nextConfig = {
     STORAGEBUCKET: process.env.STORAGEBUCKET,
     MESSAGINGSENDERID: process.env.MESSAGINGSENDERID,
     APPID: process.env.APPID,
+    SECRETKEY: process.env.SECRETKEY,
   },
 };
 
