@@ -96,13 +96,6 @@ export default function Home() {
           >
             Submit
           </button>
-          <a
-            className="text-blue-500 font-bold hover:underline"
-            href="/GFDGetBios.bat"
-            download
-          >
-            Download
-          </a>
           {successMsg ? <div className="text-green-600">Added!</div> : null}
         </form>
         <button
