@@ -67,7 +67,7 @@ export default function Home() {
               setFirstName(e.target.value);
             }}
             type="text"
-            placeholder="Christopher"
+            placeholder="John"
           ></input>
           <label id="last-name">Last Name</label>
           <input
@@ -77,7 +77,7 @@ export default function Home() {
               setLastName(e.target.value);
             }}
             type="text"
-            placeholder="Fong"
+            placeholder="Doe"
           ></input>
           <label id="serial-numer">Serial Number</label>
           <input
@@ -96,6 +96,13 @@ export default function Home() {
           >
             Submit
           </button>
+          <a
+            className="text-blue-500 font-bold hover:underline"
+            href="/GFDGetBios.bat"
+            download
+          >
+            Download
+          </a>
           {successMsg ? <div className="text-green-600">Added!</div> : null}
         </form>
         <button
