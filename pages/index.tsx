@@ -107,7 +107,7 @@ export default function Home() {
         >
           Get Data
         </button>
-        {users ? <ListContainer UserList={users} /> : null}
+        {users ? <ListContainer UserList={users} count={users.length} /> : null}
       </div>
     </>
   );

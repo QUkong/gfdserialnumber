@@ -24,7 +24,7 @@ const Remove = () => {
         <ContextMenu />
         <div>
           <button
-            className="bg-pink-400 p-1 rounded"
+            className="bg-red-300 p-1 rounded"
             onClick={async (e) => {
               e.preventDefault();
               await handleRetrieve();
@@ -32,7 +32,9 @@ const Remove = () => {
           >
             Get Data
           </button>
-          {users ? <ListContainerID UserList={users} /> : null}
+          {users ? (
+            <ListContainerID UserList={users} count={users.length} />
+          ) : null}
         </div>
       </>
     );
